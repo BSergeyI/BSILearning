@@ -1,0 +1,419 @@
+                /*  interior-product-deails */
+                
+                * {
+                    margin: 0;
+                    padding: 0;
+                }
+                /* Очистка стилей браузеров для всех элементов при помощи универсального селектора "*" */
+                
+                .conteiner {
+                    font-family: sans-serif;
+                    background-color: #ffffff;
+                    width: 1366px;
+                    height: 2129px;
+                    margin: 0 auto;
+                }
+                
+                .topper {
+                    display: inline-block;
+                    margin-left: 98px;
+                    margin-top: 63px;
+                    height: 27px;
+                }
+                
+                .logo {
+                    float: left;
+                    width: 1101px;
+                    height: 27px;
+                }
+                
+                .logoimg {
+                    float: left;
+                    margin-top: 5px;
+                    margin-right: 7px;
+                }
+                
+                .logo a {
+                    color: black;
+                    text-decoration-line: none;
+                    font-size: 20px;
+                    font-weight: 800;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                    padding: 0px 7px 3px 7px;
+                    letter-spacing: 3px;
+                    float: left;
+                }
+                
+                .logo a:hover {
+                    border-bottom: 2px solid black;
+                }
+                
+                .logo a:active {
+                    border-bottom: 2px solid black;
+                }
+                
+                .logo a:visited {
+                    border-bottom: 2px solid black;
+                }
+                
+                .logo > .submenu {
+                    display: none;
+                    background-color: #B0C4DE;
+                }
+                
+                .menu {
+                    display: block;
+                    list-style-image: none;
+                    margin-left: 588px;
+                    margin-top: 3px;
+                }
+                
+                .menu li {
+                    display: inline-block;
+                    text-decoration-line: none;
+                    letter-spacing: 1px;
+                    margin-left: 0px;
+                    padding: 3px 1px 3px 1px;
+                    float: left;
+                    position: relative;
+                }
+                
+                .menu > li:last-child {
+                    margin-right: 0;
+                    margin-left: 0px;
+                    padding: 0 0;
+                }
+                
+                .menu li a {
+                    text-decoration-line: none;
+                    text-transform: uppercase;
+                    font-weight: 300;
+                    font-size: 14px;
+                    letter-spacing: 1px;
+                    margin-left: 3px;
+                    float: left;
+                }
+                
+                .logo .menu li:hover .submenu li a {
+                    display: block;
+                }
+                
+                .menu li a:hover {
+                    display: block;
+                    border-bottom: 2px solid black;
+                }
+                
+                .menu li a:focus {
+                    display: block;
+                }
+                
+                .menu li a:visited {
+                    display: block;
+                    border-bottom: 2px solid black;
+                }
+                
+                .fa {
+                    content: "\f002";
+                    font-family: "FontAwesome";
+                    color: inherit;
+                    padding-left: 3px;
+                    margin-left: 3px;
+                    margin-top: 3px;
+                }
+                
+                .submenu {
+                    position: absolute;
+                    top: 150%;
+                    left: 0;
+                    width: 100%;
+                    z-index: 10;
+                    margin-left: 0px;
+                    border-bottom-style: hidden;
+                }
+                
+                .submenu li a {
+                    display: none;
+                    padding-bottom: 3px;
+                    border-bottom: 1px solid rgba(255, 255, 255, .3);
+                    color: darkgray;
+                    border-bottom-style: hidden;
+                    background: #B0C4DE;
+                    color: #ffffff;
+                    ;
+                }
+                
+                .oko {
+                    float: right;
+                    margin-left: 3px;
+                    margin-top: 3px;
+                }
+                
+                .vibor {
+                    background-color: #f4f4f4;
+                    height: 70px;
+                    top: 119px;
+                    clear: both;
+                    color: #6c6c6c;
+                    font-size: 17.99px;
+                    /* Приближение из-за подстановки шрифтов */
+                    font-weight: bold;
+                    text-align: center;
+                    margin-top: 29px;
+                    margin-bottom: 60px;
+                    transform: scaleY(1.0006);
+                    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+                }
+                
+                .vibor ul {
+                    float: left;
+                    display: block;
+                    list-style-image: none;
+                    padding-left: 0px;
+                    padding-top: 10px;
+                    margin-left: 360px;
+                }
+                
+                .vibor ul li {
+                    display: inline-block;
+                    text-decoration-line: none;
+                    text-transform: uppercase;
+                    padding-left: 3px;
+                    padding-top: 15px;
+                    margin-right: 38px;
+                }
+                
+                .vibor ul li:first-child {
+                    padding-left: 0px;
+                    padding-top: 15px;
+                }
+                
+                .vibor ul li:hover {
+                    border-bottom: 2px solid black;
+                }
+                
+                .vibor ul li:focus {
+                    border-bottom: 2px solid black;
+                }
+                
+                .vibor ul li:visited {
+                    border-bottom: 2px solid black;
+                }
+                
+                .slider01 {
+                    float: left;
+                    top: 261px;
+                    margin-left: 98px;
+                    width: 570px;
+                    height: 570px;
+                    padding: 0px 0px 20px 0px;
+                    outline: 2px #257FE6 none;
+                }
+                
+                .block01 {
+                    top: 261px;
+                    left: 724px;
+                    height: 570px;
+                    padding-top: 0px;
+                    text-align: center;
+                }
+                
+                .block01 h3 {
+                    top: 308px;
+                    left: 724px;
+                    padding-top: 40px;
+                    color: #212121;
+                    font-size: 35.98px;
+                    /* Приближение из-за подстановки шрифтов */
+                    font-weight: 700;
+                    text-align: center;
+                    transform: scaleY(1.0005);
+                    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+                }
+                
+                .block01 h4 {
+                    color: #e53935;
+                    font-size: 18px;
+                    /* Приближение из-за подстановки шрифтов */
+                    font-weight: 700;
+                    line-height: 48px;
+                    /* Приближение из-за подстановки шрифтов */
+                    text-align: center;
+                    transform: scaleY(1.0005);
+                    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+                    padding-bottom: 10px;
+                }
+                
+                .block01 h2 {
+                    font-family: Gotham;
+                    color: #212121;
+                    font-size: 36px;
+                    /* Приближение из-за подстановки шрифтов */
+                    font-weight: 300;
+                    line-height: 48px;
+                    /* Приближение из-за подстановки шрифтов */
+                    text-align: center;
+                    margin-top: 10px;
+                    transform: scaleY(1.0005);
+                    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+                }
+                
+                .block01 h2:first-child {
+                    font-family: Gotham;
+                    color: #212121;
+                    font-size: 48px;
+                    /* Приближение из-за подстановки шрифтов */
+                    font-weight: 300;
+                    line-height: 48px;
+                    /* Приближение из-за подстановки шрифтов */
+                    text-align: center;
+                    margin-top: 10px;
+                    transform: scaleY(1.0005);
+                    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+                }
+                
+                .block01 h2 span {
+                    font-family: Gotham;
+                    color: #212121;
+                    font-size: 72px;
+                    /* Приближение из-за подстановки шрифтов */
+                    font-weight: 300;
+                    line-height: 48px;
+                    /* Приближение из-за подстановки шрифтов */
+                    text-align: center;
+                    transform: scaleY(1.0005);
+                    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+                }
+                
+                .block01 button {
+                    margin-top: 20px;
+                    background-color: #f44336;
+                    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+                    border-radius: 45px;
+                    width: 510px;
+                    height: 71px;
+                }
+                
+                .block01 button h3 {
+                    display: inline-block;
+                    color: #ffffff;
+                    font-size: 21.99px;
+                    /* Приближение из-за подстановки шрифтов */
+                    font-weight: 700;
+                    line-height: 24px;
+                    /* Приближение из-за подстановки шрифтов */
+                    text-align: center;
+                    text-transform: uppercase;
+                    transform: scaleY(1.0005);
+                    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+                    padding: 20px;
+                }
+                
+                .block01 button h3 img {
+                    background-color: #f44336;
+                    color: #ffffff;
+                    width: 15px;
+                    height: 24px;
+                    padding-left: 15px;
+                    vertical-align: middle;
+                }
+                
+                .text01 {
+                    display: block;
+                    float: left;
+                    width: 499px;
+                    height: 244px;
+                    margin-top: 40px;
+                    margin-left: 99px;
+                    font-family: sans-serif, Gotham;
+                    color: #212121;
+                    font-size: 16px;
+                    /* Приближение из-за подстановки шрифтов */
+                    font-weight: 300;
+                    line-height: 24px;
+                    /* Приближение из-за подстановки шрифтов */
+                    text-align: left;
+                    transform: scaleY(1.0005);
+                    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+                }
+                
+                h1 {
+                    color: black;
+                    font-size: 3em;
+                }
+                /*  Из прошлых шаблонов
+.topmenu {
+    list-style-type: none;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.topmenu li {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 5px 10px 5px 10px;
+    padding: 5px 5px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    background-color: navajowhite;
+    transition: 0.2s ease-in-out;
+}
+ #pictw {
+    float: left;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 15px 10px;
+    display: inline-block;
+    /* margin-left: -15px; */
+                /* width: 32%;
+    background-color: inherit;
+}   
+.logo1 {
+    margin-left: 1px;
+    padding-left: 11px;
+    padding-top: 2px;
+    padding-right: 3px;
+    height: inherit;
+    box-shadow: inset;
+    float: left;
+}  */
+                
+                .showfnc {
+                    margin: 30px auto;
+                    height: 70px;
+                }
+                
+                .BlPict {
+                    padding-left: 148px;
+                    margin: 3px auto;
+                    list-style-type: none;
+                }
+                
+                .BlPict li {
+                    padding-left: 7px;
+                    float: left;
+                    width: 70px;
+                    height: 70px;
+                    outline: none;
+                }
+                
+                .imgVT {
+                    width: 70px;
+                    height: 70px;
+                }
+                
+                .slider01:hover,
+                .imgVT:hover {
+                    outline: 2px #257FE6 solid;
+                }
+                
+                .slider01:active,
+                .imgVT:active {
+                    outline: 2px #257FE6 solid;
+                }
+                
+                .slider01:visited,
+                .imgVT:visited {
+                    outline: 2px #257FE6 solid;
+                }
