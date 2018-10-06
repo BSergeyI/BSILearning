@@ -1,347 +1,363 @@
-                /*  interior-product-deails */
-                
-                * {
-                    margin: 0;
-                    padding: 0;
-                }
-                /* Очистка стилей браузеров для всех элементов при помощи универсального селектора "*" */
-                
-                .conteiner {
-                    font-family: sans-serif;
-                    background-color: #ffffff;
-                    width: 1366px;
-                    height: 2129px;
-                    margin: 0 auto;
-                }
-                
-                .topper {
-                    display: inline-block;
-                    margin-left: 98px;
-                    margin-top: 63px;
-                    height: 27px;
-                }
-                
-                .logo {
-                    float: left;
-                    width: 1101px;
-                    height: 27px;
-                }
-                
-                .logoimg {
-                    float: left;
-                    margin-top: 5px;
-                    margin-right: 7px;
-                }
-                
-                .logo a {
-                    color: black;
-                    text-decoration-line: none;
-                    font-size: 20px;
-                    font-weight: 800;
-                    margin-top: 0px;
-                    margin-bottom: 0px;
-                    padding: 0px 7px 3px 7px;
-                    letter-spacing: 3px;
-                    float: left;
-                }
-                
-                .logo a:hover {
-                    border-bottom: 2px solid black;
-                }
-                
-                .logo a:active {
-                    border-bottom: 2px solid black;
-                }
-                
-                .logo a:visited {
-                    border-bottom: 2px solid black;
-                }
-                
-                .logo > .submenu {
-                    display: none;
-                    background-color: #B0C4DE;
-                }
-                
-                .menu {
-                    display: block;
-                    list-style-image: none;
-                    margin-left: 588px;
-                    margin-top: 3px;
-                }
-                
-                .menu li {
-                    display: inline-block;
-                    text-decoration-line: none;
-                    letter-spacing: 1px;
-                    margin-left: 0px;
-                    padding: 3px 1px 3px 1px;
-                    float: left;
-                    position: relative;
-                }
-                
-                .menu > li:last-child {
-                    margin-right: 0;
-                    margin-left: 0px;
-                    padding: 0 0;
-                }
-                
-                .menu li a {
-                    text-decoration-line: none;
-                    text-transform: uppercase;
-                    font-weight: 300;
-                    font-size: 14px;
-                    letter-spacing: 1px;
-                    margin-left: 3px;
-                    float: left;
-                }
-                
-                .logo .menu li:hover .submenu li a {
-                    display: block;
-                }
-                
-                .menu li a:hover {
-                    display: block;
-                    border-bottom: 2px solid black;
-                }
-                
-                .menu li a:focus {
-                    display: block;
-                }
-                
-                .menu li a:visited {
-                    display: block;
-                    border-bottom: 2px solid black;
-                }
-                
-                .fa {
-                    content: "\f002";
-                    font-family: "FontAwesome";
-                    color: inherit;
-                    padding-left: 3px;
-                    margin-left: 3px;
-                    margin-top: 3px;
-                }
-                
-                .submenu {
-                    position: absolute;
-                    top: 150%;
-                    left: 0;
-                    width: 100%;
-                    z-index: 10;
-                    margin-left: 0px;
-                    border-bottom-style: hidden;
-                }
-                
-                .submenu li a {
-                    display: none;
-                    padding-bottom: 3px;
-                    border-bottom: 1px solid rgba(255, 255, 255, .3);
-                    color: darkgray;
-                    border-bottom-style: hidden;
-                    background: #B0C4DE;
-                    color: #ffffff;
-                    ;
-                }
-                
-                .oko {
-                    float: right;
-                    margin-left: 3px;
-                    margin-top: 3px;
-                }
-                
-                .vibor {
-                    background-color: #f4f4f4;
-                    height: 70px;
-                    top: 119px;
-                    clear: both;
-                    color: #6c6c6c;
-                    font-size: 17.99px;
-                    /* Приближение из-за подстановки шрифтов */
-                    font-weight: bold;
-                    text-align: center;
-                    margin-top: 29px;
-                    margin-bottom: 60px;
-                    transform: scaleY(1.0006);
-                    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
-                }
-                
-                .vibor ul {
-                    float: left;
-                    display: block;
-                    list-style-image: none;
-                    padding-left: 0px;
-                    padding-top: 10px;
-                    margin-left: 360px;
-                }
-                
-                .vibor ul li {
-                    display: inline-block;
-                    text-decoration-line: none;
-                    text-transform: uppercase;
-                    padding-left: 3px;
-                    padding-top: 15px;
-                    margin-right: 38px;
-                }
-                
-                .vibor ul li:first-child {
-                    padding-left: 0px;
-                    padding-top: 15px;
-                }
-                
-                .vibor ul li:hover {
-                    border-bottom: 2px solid black;
-                }
-                
-                .vibor ul li:focus {
-                    border-bottom: 2px solid black;
-                }
-                
-                .vibor ul li:visited {
-                    border-bottom: 2px solid black;
-                }
-                
-                .slider01 {
-                    float: left;
-                    top: 261px;
-                    margin-left: 98px;
-                    width: 570px;
-                    height: 570px;
-                    padding: 0px 0px 20px 0px;
-                    outline: 2px #257FE6 none;
-                }
-                
-                .block01 {
-                    top: 261px;
-                    left: 724px;
-                    height: 570px;
-                    padding-top: 0px;
-                    text-align: center;
-                }
-                
-                .block01 h3 {
-                    top: 308px;
-                    left: 724px;
-                    padding-top: 40px;
-                    color: #212121;
-                    font-size: 35.98px;
-                    /* Приближение из-за подстановки шрифтов */
-                    font-weight: 700;
-                    text-align: center;
-                    transform: scaleY(1.0005);
-                    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
-                }
-                
-                .block01 h4 {
-                    color: #e53935;
-                    font-size: 18px;
-                    /* Приближение из-за подстановки шрифтов */
-                    font-weight: 700;
-                    line-height: 48px;
-                    /* Приближение из-за подстановки шрифтов */
-                    text-align: center;
-                    transform: scaleY(1.0005);
-                    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
-                    padding-bottom: 10px;
-                }
-                
-                .block01 h2 {
-                    font-family: Gotham;
-                    color: #212121;
-                    font-size: 36px;
-                    /* Приближение из-за подстановки шрифтов */
-                    font-weight: 300;
-                    line-height: 48px;
-                    /* Приближение из-за подстановки шрифтов */
-                    text-align: center;
-                    margin-top: 10px;
-                    transform: scaleY(1.0005);
-                    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
-                }
-                
-                .block01 h2:first-child {
-                    font-family: Gotham;
-                    color: #212121;
-                    font-size: 48px;
-                    /* Приближение из-за подстановки шрифтов */
-                    font-weight: 300;
-                    line-height: 48px;
-                    /* Приближение из-за подстановки шрифтов */
-                    text-align: center;
-                    margin-top: 10px;
-                    transform: scaleY(1.0005);
-                    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
-                }
-                
-                .block01 h2 span {
-                    font-family: Gotham;
-                    color: #212121;
-                    font-size: 72px;
-                    /* Приближение из-за подстановки шрифтов */
-                    font-weight: 300;
-                    line-height: 48px;
-                    /* Приближение из-за подстановки шрифтов */
-                    text-align: center;
-                    transform: scaleY(1.0005);
-                    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
-                }
-                
-                .block01 button {
-                    margin-top: 20px;
-                    background-color: #f44336;
-                    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
-                    border-radius: 45px;
-                    width: 510px;
-                    height: 71px;
-                }
-                
-                .block01 button h3 {
-                    display: inline-block;
-                    color: #ffffff;
-                    font-size: 21.99px;
-                    /* Приближение из-за подстановки шрифтов */
-                    font-weight: 700;
-                    line-height: 24px;
-                    /* Приближение из-за подстановки шрифтов */
-                    text-align: center;
-                    text-transform: uppercase;
-                    transform: scaleY(1.0005);
-                    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
-                    padding: 20px;
-                }
-                
-                .block01 button h3 img {
-                    background-color: #f44336;
-                    color: #ffffff;
-                    width: 15px;
-                    height: 24px;
-                    padding-left: 15px;
-                    vertical-align: middle;
-                }
-                
-                .text01 {
-                    display: block;
-                    float: left;
-                    width: 499px;
-                    height: 244px;
-                    margin-top: 40px;
-                    margin-left: 99px;
-                    font-family: sans-serif, Gotham;
-                    color: #212121;
-                    font-size: 16px;
-                    /* Приближение из-за подстановки шрифтов */
-                    font-weight: 300;
-                    line-height: 24px;
-                    /* Приближение из-за подстановки шрифтов */
-                    text-align: left;
-                    transform: scaleY(1.0005);
-                    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
-                }
-                
-                h1 {
-                    color: black;
-                    font-size: 3em;
-                }
-                /*  Из прошлых шаблонов
+/*  interior-product-deails */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Очистка стилей браузеров для всех элементов при помощи универсального селектора "*" */
+
+.conteiner {
+    font-family: sans-serif;
+    background-color: #ffffff;
+    width: 1366px;
+    height: 2129px;
+    margin: 0 auto;
+}
+
+.topper {
+    display: inline-block;
+    margin-left: 98px;
+    margin-top: 63px;
+    height: 27px;
+}
+
+.logo {
+    float: left;
+    width: 1101px;
+    height: 27px;
+}
+
+.logoimg {
+    float: left;
+    margin-top: 5px;
+    margin-right: 7px;
+}
+
+.logo a {
+    color: black;
+    text-decoration-line: none;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px 7px 3px 7px;
+    letter-spacing: 3px;
+    float: left;
+}
+
+.logo a:hover {
+    border-bottom: 2px solid black;
+}
+
+.logo a:active {
+    border-bottom: 2px solid black;
+}
+
+.logo a:visited {
+    border-bottom: 2px solid black;
+}
+
+.logo > .submenu {
+    display: none;
+    background-color: #B0C4DE;
+}
+
+.menu {
+    display: block;
+    list-style-image: none;
+    margin-left: 588px;
+    margin-top: 3px;
+}
+
+.menu li {
+    display: inline-block;
+    text-decoration-line: none;
+    letter-spacing: 1px;
+    margin-left: 0px;
+    padding: 3px 1px 3px 1px;
+    float: left;
+    position: relative;
+}
+
+.menu > li:last-child {
+    margin-right: 0;
+    margin-left: 0px;
+    padding: 0 0;
+}
+
+.menu li a {
+    text-decoration-line: none;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-left: 3px;
+    float: left;
+}
+
+.logo .menu li:hover .submenu li a {
+    display: block;
+}
+
+.menu li a:hover {
+    display: block;
+    border-bottom: 2px solid black;
+}
+
+.menu li a:focus {
+    display: block;
+}
+
+.menu li a:visited {
+    display: block;
+    border-bottom: 2px solid black;
+}
+
+.fa {
+    content: "\f002";
+    font-family: "FontAwesome";
+    color: inherit;
+    padding-left: 3px;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.submenu {
+    position: absolute;
+    top: 150%;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    margin-left: 0px;
+    border-bottom-style: hidden;
+}
+
+.submenu li a {
+    display: none;
+    padding-bottom: 3px;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    color: darkgray;
+    border-bottom-style: hidden;
+    background: #B0C4DE;
+    color: #ffffff;
+    ;
+}
+
+.oko {
+    float: right;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.vibor {
+    background-color: #f4f4f4;
+    height: 70px;
+    top: 119px;
+    clear: both;
+    color: #6c6c6c;
+    font-size: 17.99px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: bold;
+    text-align: center;
+    margin-top: 29px;
+    margin-bottom: 60px;
+    transform: scaleY(1.0006);
+    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+}
+
+.vibor ul {
+    float: left;
+    display: block;
+    list-style-image: none;
+    padding-left: 0px;
+    padding-top: 10px;
+    margin-left: 360px;
+}
+
+.vibor ul li {
+    display: inline-block;
+    text-decoration-line: none;
+    text-transform: uppercase;
+    padding-left: 3px;
+    padding-top: 15px;
+    margin-right: 38px;
+}
+
+.vibor ul li:first-child {
+    padding-left: 0px;
+    padding-top: 15px;
+}
+
+.vibor ul li:hover {
+    border-bottom: 2px solid black;
+}
+
+.vibor ul li:focus {
+    border-bottom: 2px solid black;
+}
+
+.vibor ul li:visited {
+    border-bottom: 2px solid black;
+}
+
+.slider01 {
+    float: left;
+    top: 261px;
+    margin-left: 98px;
+    width: 570px;
+    height: 570px;
+    padding: 0px 0px 20px 0px;
+    outline: 2px #257FE6 none;
+}
+
+.block01 {
+    top: 261px;
+    left: 724px;
+    height: 570px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.block01 h3 {
+    top: 308px;
+    left: 724px;
+    padding-top: 40px;
+    color: #212121;
+    font-size: 35.98px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: center;
+    transform: scaleY(1.0005);
+    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+}
+
+.block01 h4 {
+    color: #e53935;
+    font-size: 18px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 48px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    transform: scaleY(1.0005);
+    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+    padding-bottom: 10px;
+}
+
+.block01 h2 {
+    font-family: Gotham;
+    color: #212121;
+    font-size: 36px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 48px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    margin-top: 10px;
+    transform: scaleY(1.0005);
+    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+}
+
+.block01 h2:first-child {
+    font-family: Gotham;
+    color: #212121;
+    font-size: 48px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 48px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    margin-top: 10px;
+    transform: scaleY(1.0005);
+    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+}
+
+.block01 h2 span {
+    font-family: Gotham;
+    color: #212121;
+    font-size: 72px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 48px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    transform: scaleY(1.0005);
+    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+}
+
+.block01 button {
+    margin-top: 20px;
+    background-color: #f44336;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    border-radius: 45px;
+    width: 510px;
+    height: 71px;
+}
+
+
+/* No rectangle button border */
+
+.block01 button:active,
+.block01 button:focus {
+    outline: none !important;
+}
+
+.block01 button::-moz-focus-inner {
+    border: 0 !important;
+}
+
+.block01 button h3 {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 21.99px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    text-transform: uppercase;
+    transform: scaleY(1.0005);
+    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+    padding: 20px;
+}
+
+.block01 button h3 img {
+    background-color: #f44336;
+    color: #ffffff;
+    width: 15px;
+    height: 24px;
+    padding-left: 15px;
+    vertical-align: middle;
+}
+
+.text01 {
+    display: block;
+    float: left;
+    width: 499px;
+    height: 244px;
+    margin-top: 40px;
+    margin-left: 99px;
+    font-family: sans-serif, Gotham;
+    color: #212121;
+    font-size: 16px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    transform: scaleY(1.0005);
+    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+}
+
+h1 {
+    color: black;
+    font-size: 3em;
+}
+
+
+/*  Из прошлых шаблонов
 .topmenu {
     list-style-type: none;
     text-transform: uppercase;
@@ -366,7 +382,9 @@
     margin: 0px 0px 15px 10px;
     display: inline-block;
     /* margin-left: -15px; */
-                /* width: 32%;
+
+
+/* width: 32%;
     background-color: inherit;
 }   
 .logo1 {
@@ -378,42 +396,453 @@
     box-shadow: inset;
     float: left;
 }  */
-                
-                .showfnc {
-                    margin: 30px auto;
-                    height: 70px;
-                }
-                
-                .BlPict {
-                    padding-left: 148px;
-                    margin: 3px auto;
-                    list-style-type: none;
-                }
-                
-                .BlPict li {
-                    padding-left: 7px;
-                    float: left;
-                    width: 70px;
-                    height: 70px;
-                    outline: none;
-                }
-                
-                .imgVT {
-                    width: 70px;
-                    height: 70px;
-                }
-                
-                .slider01:hover,
-                .imgVT:hover {
-                    outline: 2px #257FE6 solid;
-                }
-                
-                .slider01:active,
-                .imgVT:active {
-                    outline: 2px #257FE6 solid;
-                }
-                
-                .slider01:visited,
-                .imgVT:visited {
-                    outline: 2px #257FE6 solid;
-                }
+
+.showfnc {
+    margin: 30px auto;
+    height: 70px;
+    padding-bottom: 30px;
+    clear: both;
+}
+
+.BlPict {
+    padding-left: 148px;
+    margin: 3px auto;
+    list-style-type: none;
+}
+
+.BlPict li {
+    padding-left: 7px;
+    float: left;
+    width: 70px;
+    height: 70px;
+    outline: none;
+    padding-bottom: 30px;
+}
+
+.imgVT {
+    width: 70px;
+    height: 70px;
+    clear: both;
+    padding-bottom: 30px;
+}
+
+.slider01:hover,
+.imgVT:hover {
+    outline: 2px #257FE6 solid;
+}
+
+.slider01:active,
+.imgVT:active {
+    outline: 2px #257FE6 solid;
+}
+
+.slider01:visited,
+.imgVT:visited {
+    outline: 2px #257FE6 solid;
+}
+
+.topper2 {
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 20px;
+    top: 1157px;
+    width: 1255px;
+    height: 30px;
+    font-family: Montserrat;
+    color: #212121;
+    padding-bottom: 80px;
+    float: left;
+    clear: both;
+}
+
+.topper02 {
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 170px;
+    width: 309px;
+    height: 27px;
+    font-family: Montserrat, sans-serif;
+    transform: scaleY(0.8905);
+    color: #212121;
+    font-size: 36px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+    float: left;
+}
+
+.topper03 {
+    display: inline-block;
+    margin-left: 993px;
+    margin-top: -8px;
+    width: 158px;
+    height: 13px;
+    font-family: Montserrat, sans-serif;
+    color: #212121;
+    font-size: 18px;
+    letter-spacing: 2px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    text-transform: uppercase;
+    float: left;
+}
+
+.arrowimg {
+    background-color: #fff;
+    color: #000;
+    margin-top: -11px;
+    width: 0px;
+    height: 12px;
+    margin-left: 1155px;
+    float: left;
+}
+
+.pict02 {
+    display: block;
+    margin-left: 98px;
+    margin-top: 1255px;
+    width: 1269px;
+    clear: both;
+}
+
+.product-11,
+.product-21,
+.product-31 {
+    display: block;
+    float: left;
+    width: 368px;
+    height: 368px;
+    margin-top: 0px;
+    margin-right: 30px;
+    outline-style: none;
+}
+
+.product-31 {
+    margin-right: 0px;
+}
+
+.product-11:focus,
+.product-11:hover {
+    outline: 1px solid #257FE6;
+}
+
+.product-21:focus,
+.product-21:hover {
+    outline: 1px solid #257FE6;
+}
+
+.product-31:focus,
+.product-31:hover {
+    outline: 1px solid #257FE6;
+}
+
+.product-11:active,
+.product-21:active,
+.product-31:active {
+    box-shadow: 4px 3px 8px 7px #bac8c9;
+}
+
+.clearfix {
+    clear: both;
+    margin-top: 1745px;
+    width: 1366px;
+    height: 384px;
+}
+
+.footer {
+    margin: -384px auto;
+    width: 1366px;
+    height: 384px;
+    padding-top: 127px;
+    padding-left: 98px;
+    background-color: #F4F4F4;
+}
+
+.Contacts {
+    width: 1170px;
+    height: 180px;
+    font-family: Montserrat, sans-serif;
+    color: #6c6c6c;
+    margin-left: 0px;
+    padding-bottom: 0;
+    float: left;
+}
+
+.Contacts .ContactUs {
+    width: 276px;
+    height: 180px;
+    margin-top: 0px;
+    margin-left: 0px;
+    float: left;
+    text-align: left;
+}
+
+.Contacts .ContactUs .ContactUs h3 {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: left;
+    transform: scaleY(1.0005);
+    text-transform: uppercase;
+}
+
+.Contacts .ContactUs .ContactUs h4 {
+    font-family: Gotham;
+    color: #212121;
+    font-size: 12px;
+    /* Приближение из-за подстановки шрифтов */
+    margin-top: 40px;
+    font-weight: 400;
+    line-height: 2em;
+    /* Приближение из-за подстановки шрифтов */
+    float: left;
+    text-align: left;
+    transform: scaleY(1.0005);
+}
+
+.Contacts .useful {
+    width: 461px;
+    height: 180px;
+    margin-top: 0px;
+    margin-left: 30px;
+    float: left;
+    text-align: left;
+}
+
+.Contacts .useful .useful h3 {
+    width: 461px;
+    height: 32px;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: left;
+    transform: scaleY(1.0005);
+    text-transform: uppercase;
+}
+
+.Contacts .useful .useful .refleft,
+.Contacts .useful .useful .refright {
+    width: 204px;
+    height: 180px;
+    margin-top: 0px;
+    font-family: Gotham;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 2em;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    float: left;
+    text-transform: uppercase;
+    transform: scaleY(1.0005);
+}
+
+.refleft h4 {
+    width: 204px;
+    height: 180px;
+    margin-top: -5px;
+    margin-left: 0px;
+    font-weight: 700;
+    line-height: 2em;
+    color: #212121 !important;
+    font-size: 14px;
+    font-weight: 800;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    transform: scaleY(1.0005);
+    text-transform: uppercase;
+    float: left;
+}
+
+.refright h4 {
+    width: 204px;
+    height: 180px;
+    margin-top: -5px;
+    margin-left: 0px;
+    color: #212121 !important;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 2em;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    transform: scaleY(1.0005);
+    text-transform: uppercase;
+    float: left;
+}
+
+.Contacts .stay {
+    display: block;
+    width: 402px;
+    height: 180px;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    float: left;
+    text-align: left;
+}
+
+.Contacts .stay .stay h3 {
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 402px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    text-align: left;
+    transform: scaleY(1.0005);
+    text-transform: uppercase;
+}
+
+.Contacts .stay .stay p {
+    display: inline-block;
+    margin-top: 20px;
+    width: 402px;
+    height: 180px;
+    /* Приближение из-за подстановки шрифтов */
+    transform: scaleY(1.0005);
+    text-align: left;
+}
+
+.ContactUs h3,
+.useful h3,
+.stay h3 {
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    text-align: left;
+    transform: scaleY(1.0005);
+    text-transform: uppercase;
+}
+
+input[type="email"] {
+    border-width: 1px;
+    border-radius: 3px 3px;
+    border-color: #D9dee1;
+    outline: none;
+    font-size: 16px;
+    opacity: 0.7;
+    font-weight: 300;
+    margin: 0;
+    width: 380px;
+    height: 40px;
+    padding: 5px 15px;
+    background: #fff;
+}
+
+.lower {
+    clear: both;
+    margin: 5px auto;
+    padding: 0;
+    width: 1170px;
+    height: 40px;
+}
+
+.lowerpart {
+    margin-top: 60px;
+    padding-left: 0px;
+    width: 390px;
+    height: 20px;
+    float: left;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+    color: #6c6c6c;
+    text-transform: uppercase;
+}
+
+
+}
+.ibrandsf {
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 5px 0 0;
+    background-color: antiquewhite;
+    .ibrandsf .fa {
+        content: "\f09a";
+        font-family: "FontAwesome";
+        font-weight: 600;
+        color: inherit;
+        padding-left: 3px;
+        margin-left: 3px;
+        margin-top: 0px;
+    }
+}
+.ibrandst {
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 5px 0 0;
+    background-color: antiquewhite;
+    .ibrandst .fa {
+        content: "\f081";
+        font-family: "FontAwesome";
+        font-weight: 600;
+        color: inherit;
+        padding-left: 3px;
+        margin-left: 3px;
+        margin-top: 0px;
+    }
+}
+.ibrandsg {
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 5px 0 0;
+    background-color: antiquewhite;
+    .ibrandsg .fa {
+        content: "\f081";
+        font-family: "FontAwesome";
+        font-weight: 600;
+        color: inherit;
+        padding-left: 3px;
+        margin-left: 3px;
+        margin-top: 0px;
+    }
+}
+.ibrandsp {
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 5px 0 0;
+    background-color: antiquewhite;
+    .ibrandsp .fa {
+        content: "\f09a";
+        font-family: "FontAwesome";
+        font-weight: 600;
+        color: inherit;
+        padding-left: 3px;
+        padding-right: 5px;
+        margin-left: 3px;
+        margin-top: 0px;
+    }
+}
+.ibrandsp .fa {
+    content: "\f09a";
+    font-family: "FontAwesome";
+    font-weight: 600;
+    color: inherit;
+    padding-left: 3px;
+    margin-left: 3px;
+    margin-top: 0px;
+}
+.clear {
+    clear: both;
+}
