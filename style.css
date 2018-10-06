@@ -499,6 +499,23 @@ h1 {
     margin-left: 1155px;
     float: left;
 }
+.arrowimg {
+    background-color: #fff;
+    color: #000;
+    margin-top: 23px;
+    width: 0px;
+    height: 12px;
+    margin-left: 1155px;
+    .fa {
+        content: "\f105";
+        font-family: "FontAwesome";
+        font-weight: 300;
+        color: inherit;
+        padding-left: 3px;
+        margin-left: 3px;
+        margin-top: 0px;
+    }
+}
 
 .pict02 {
     display: block;
@@ -762,7 +779,27 @@ input[type="email"] {
     color: #6c6c6c;
     text-transform: uppercase;
 }
-
+.lowerpart {
+    margin-top: 60px;
+    padding-left: 0px;
+    width: 390px;
+    height: 20px;
+    float: left;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+    color: #6c6c6c;
+    text-align: left;
+    text-transform: uppercase;
+    .ibrandsf .ibrandst .ibrandsg .ibrandsp {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        float: left;
+        padding-right: 20px;
+        margin: 0 20px 0 20px;
+    }
+}
 
 }
 .ibrandsf {
@@ -771,7 +808,6 @@ input[type="email"] {
     height: 20px;
     float: left;
     margin: 0 5px 0 0;
-    background-color: antiquewhite;
     .ibrandsf .fa {
         content: "\f09a";
         font-family: "FontAwesome";
@@ -788,7 +824,6 @@ input[type="email"] {
     height: 20px;
     float: left;
     margin: 0 5px 0 0;
-    background-color: antiquewhite;
     .ibrandst .fa {
         content: "\f081";
         font-family: "FontAwesome";
@@ -805,7 +840,6 @@ input[type="email"] {
     height: 20px;
     float: left;
     margin: 0 5px 0 0;
-    background-color: antiquewhite;
     .ibrandsg .fa {
         content: "\f081";
         font-family: "FontAwesome";
