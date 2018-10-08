@@ -224,6 +224,7 @@
 
 .vibor ul li:visited {
     border-bottom: 2px solid black;
+    border-bottom-style: outset;
 }
 
 .slider01 {
@@ -314,10 +315,24 @@
 .block01 button {
     margin-top: 20px;
     background-color: #f44336;
-    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    box-shadow: 2px 2px 4.85px 0.95px rgba(33, 33, 33, 0.35);
     border-radius: 45px;
     width: 510px;
     height: 71px;
+}
+
+
+/* No rectangle button border */
+
+.block01 button:active,
+.block01 button:hover,
+.block01 button:focus,
+.block01 button:visited {
+    outline: none !important;
+}
+
+.block01 button::-moz-focus-inner {
+    border: 0 !important;
 }
 
 .block01 button h3 {
@@ -435,17 +450,17 @@ h1 {
 
 .slider01:hover,
 .imgVT:hover {
-    outline: 2px #257FE6 solid;
+    box-shadow: 1px 1px 10px 1px #bac8c9;
 }
 
 .slider01:active,
 .imgVT:active {
-    outline: 2px #257FE6 solid;
+    box-shadow: 0px 0px 20px 3px #bac8c9;
 }
 
 .slider01:visited,
 .imgVT:visited {
-    outline: 2px #257FE6 solid;
+    box-shadow: 1px 0px 5px 0px #bac8c9;
 }
 
 
@@ -484,8 +499,8 @@ h1 {
     text-decoration-line: none;
     margin-left: 993px;
     margin-top: -8px;
-    width: 158px;
-    height: 13px;
+    width: 175px;
+    height: 23px;
     font-family: Montserrat, sans-serif;
     color: #212121;
     font-size: 18px;
@@ -498,8 +513,12 @@ h1 {
     float: left;
 }
 
+.topper03:hover {
+    box-shadow: 1px 1px 5px 1px #bac8c9;
+}
+
 .topper03:active {
-    box-shadow: 20px -2px 5px #9c9c9c, 7px 20px 5px #9c9c9c;
+    box-shadow: 3px -3px 15px #9c9c9c, 7px 3px 3px #9c9c9c;
 }
 
 #exp {
@@ -591,10 +610,16 @@ h1 {
     outline: 1px solid #257FE6;
 }                               */
 
+.product-11:hover,
+.product-21:hover,
+.product-31:hover {
+    box-shadow: 1px 1px 5px 1px #bac8c9;
+}
+
 .product-11:active,
 .product-21:active,
 .product-31:active {
-    box-shadow: 4px 3px 8px 7px #bac8c9;
+    box-shadow: 0px 0px 20px 3px #bac8c9;
 }
 
 .clearfix {
