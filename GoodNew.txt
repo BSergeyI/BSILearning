@@ -1,0 +1,2 @@
+Print('Goodbye World')
+Go to Dysplay
