@@ -1,3 +1,2 @@
 Print('Goodbye World')
-Let go to Print
-"This is old version"
+"Let go to Print!"
