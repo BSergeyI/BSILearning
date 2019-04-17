@@ -1,2 +1,2 @@
 Print('Goodbye World')
-Go to Dysplay?
+Print("Congradulated")
