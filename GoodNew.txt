@@ -1,2 +1,9 @@
-Print('Goodbye World')
+<<<<<<< HEAD
+
+
+=======
+Print("Goodbye World")
+Print("This track will be the main")
+Print("Online text")
 Print("Congradulated")
+>>>>>>> master
