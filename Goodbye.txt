@@ -1,2 +1,2 @@
 Print('Goodbye World')
-"Let go to Print!"
+Print('Let go to Print!')
