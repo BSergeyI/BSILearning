@@ -1,4 +1,4 @@
-Print('Goodbye World')
-Print('Let go to Print!')
-Print('No messages')
-Print('No conflicts')
+Print("Goodbye World")
+Print("Let go to Print!")
+Print("No messages")
+Print("No conflicts")

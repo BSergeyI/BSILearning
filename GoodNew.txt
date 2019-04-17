@@ -1,4 +1,4 @@
-Print('Goodbye World')
-Print('This track will be the main')
-Print('Online text')
+Print("Goodbye World")
+Print("This track will be the main")
+Print("Online text")
 
