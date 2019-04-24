@@ -1,5 +1,0 @@
-Print("Goodbye World")
-Print("Let go to Print!")
-Print("No messages")
-Print("No conflicts")
-Print("Print what is it")
